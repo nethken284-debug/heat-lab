@@ -1,0 +1,20 @@
+<header class="hud" id="hud">
+  <div class="wrap hud-inner">
+    <button class="logo" id="hud-home" type="button" aria-label="返回地圖">
+      <svg viewBox="0 0 24 24" width="22" height="22" aria-hidden="true"><rect x="9" y="2" width="6" height="14" rx="3" fill="none" stroke="currentColor" stroke-width="2"/><circle cx="12" cy="18" r="4" fill="var(--hot)"/><rect x="11" y="8" width="2" height="9" fill="var(--hot)"/></svg>
+      <span>HEAT&nbsp;LAB</span>
+    </button>
+    <div class="brain" title="腦溫：完成越多，溫度越高">
+      <div class="brain-bar"><div class="brain-cover" id="brain-cover"></div></div>
+      <span class="brain-label" id="brain-label">腦溫 0 °C</span>
+    </div>
+    <div class="joules" id="hud-joules" title="答啱題、玩完實驗就會收集能量">
+      <svg viewBox="0 0 24 24" width="16" height="16" aria-hidden="true"><path d="M13 2 4 14h6l-1 8 9-12h-6l1-8z" fill="var(--qE)"/></svg>
+      <span id="hud-j">0 J</span>
+    </div>
+    <button class="icon-btn" id="hud-sound" type="button" aria-label="音效開關"></button>
+  </div>
+</header>
+<main id="main" class="main"></main>
+<div class="toast-host" id="toast-host" aria-live="polite"></div>
+<canvas id="confetti" aria-hidden="true"></canvas>
